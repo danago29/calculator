@@ -1,0 +1,46 @@
+div {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 3px;
+    width: 400px;
+    height: 400px;
+}
+
+.row {
+    flex-grow: 1;
+    flex-basis: 1;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.button {
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 0px;
+
+
+    
+}
+
+.display {
+    flex-grow: 1;
+    background-color: lightgray;
+    border: 1px white solid;
+}
+
+.wide {
+    flex-grow: 2;
+}
+
+.button {
+   background-color: rgb(157, 157, 157); 
+   border: 1px white solid;
+}
+
